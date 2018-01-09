@@ -8,7 +8,8 @@ if __name__ == '__main__':
     db = client.mydb
 
     crawler = TweetCrawler()
-    tweets = crawler.fetch_tweets(u'bitcoin', 100000)
+    query = u"bitcoin"
+    tweets = crawler.fetch_tweets(query, 100000)
 
     # ツイートから必要な情報だけを取り出してダウンロード
     # 今回は、id、本文、投稿日時、投稿者名を取得
