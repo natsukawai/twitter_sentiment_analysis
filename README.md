@@ -1,5 +1,5 @@
 # Twitter_Sentiment_Analysis
-This scripts get 100,000 tweets about the query, analyze tweet sentiment and store them to MongoDB.
+These scripts get 100,000 tweets about the query, analyze tweet sentiment and store them to MongoDB.
 
 # Requirement
 Japanese Sentiment Dictionary (Volume of Verbs and Adjectives) ver. 1.0  
